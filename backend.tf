@@ -63,3 +63,17 @@ tags = {
 
     }
 }
+
+#configure terraform backend
+
+terraform {
+
+  backend "s3" {
+
+    bucket = "projecta-s3-demo-bucket-01"
+    key    = "terraform.tfstate"
+    region = "ap-south-1"
+    dynamodb_table = "s3-backend-db-table-01"
+
+  }
+}
