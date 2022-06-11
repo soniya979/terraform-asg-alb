@@ -1,7 +1,0 @@
-region = "ap-south-1"
-vpc_cidr = "10.0.0.0/16"
-pubsn01_cidr = "10.0.0.0/24"
-pubsn02_cidr = "10.0.1.0/24"
-pvtsn01_cidr = "10.0.2.0/24"
-pvtsn02_cidr = "10.0.3.0/24"
-dest_cidr = "0.0.0.0/0"
